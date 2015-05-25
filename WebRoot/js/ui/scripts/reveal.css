@@ -1,0 +1,59 @@
+.reveal-modal-bg { 
+position: fixed; 
+height: 100%;
+width: 100%;
+background: #000;
+background: rgba(0,0,0,.7);
+z-index: 100;
+display: none;
+top: 0;
+left: 0; 
+}
+
+.reveal-modal {
+visibility: hidden;
+width:978px; margin:0 auto;
+background:rgba(8, 33, 64, 0.2) ;
+filter:Alpha(opacity=10);
+position:absolute;
+top:16px; 
+left:4%;
+z-index: 101;
+padding: 10px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+-box-shadow: 0 0 10px rgba(0,0,0,.4);
+box-shadow:-8px 0 200px #c4cad3  inset, /*◊Û±ﬂ“ı”∞*/  
+           8px 0 200px #c4cad3 inset, /*”“±ﬂ“ı”∞*/  
+           0 -10px 100px #c4cad3 inset, /*∂•≤ø“ı”∞*/  
+           0 10px 10px #c4cad3 inset; /*µ◊±ﬂ“ı”∞*/ 
+border:1px solid #d9e5eb;  
+ filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5; 
+      
+                        
+
+}
+
+.reveal-modal.small{ width: 200px; margin-left: -140px;}
+.reveal-modal.medium{ width: 400px; margin-left: -240px;}
+.reveal-modal.large{ width: 600px; margin-left: -340px;}
+.reveal-modal.xlarge{ width: 800px; margin-left: -440px;}
+
+.reveal-modal .close-reveal-modal {
+font-size: 22px;
+line-height: .5;
+position: absolute;
+top: 8px;
+right: 11px;
+color: #aaa;
+text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+font-weight: bold;
+cursor: pointer;
+border:none;
+background:none;
+} 
+
+.big-link { display:block; color: #06f; }
